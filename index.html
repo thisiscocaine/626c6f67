@@ -46,89 +46,125 @@
 	  <!-- End Google Tag Manager -->
   </head>
 
-    <nav class="menu">
-      <div class="nav-left">
-        <ul>
-          <li>
-            <a href="https://aryanaryal.com.np/"
-              ><img class="logo" src="https://cdn.aryanaryal.com.np/626c6f672d617279616e/70686f746f73/6c6f676f73/black-logo.png" alt="" /><span
-                class="sitename"
-                >arisksec&#x27;s blog</span
-              ></a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="nav-right">
-        <ul>
-        <li class="icons">
-            <a
-                title="RSS feed"
-              class="fas fa-rss"
-              href="https://cdn.aryanaryal.com.np/626c6f672d617279616e/66696c6573/646973706c6179/rss.xml"></a>
-            <a
-                title="Dark mode"
-              id="darkmodetoggle"
-              class="fas fa-moon"
-              onclick="switchTheme()"
-            ></a>
-        <a id="toggle-nav" onclick="toggleNav()">
-            <i class="fa fa-bars"></i>
-        </a>
-          </li>
-        </ul>
-        <ul id="links">
-          <li><a href="mailto:arisksec@outlook.com">contact</a></li>
-          <li><a target="_blank" href="https://patreon.com/#">patreon</a></li>
-          <li><a target="_blank" href="https://github.com/arisksec">github</a></li>
-          <li><a target="_blank" rel="me" href="https://infosec.exchange/@arisksec">mastodon</a></li>
-          <li><a target="_blank" class="fa-brands fa-x-twitter" href="https://twitter.com/arisksec"></a></li>
-        </ul>
-      </div>
-    </nav>
+<body>
 
-  <body>
-
-	  <!-- Google Tag Manager (noscript) -->
+ <!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPSHPFWD"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	  <!-- End Google Tag Manager (noscript) -->
 
 
-   
-    <section class="section">
-      <div class="container">
-<h2 class="title">Hey there!</h2>
-  <p>My name is <b>Aryan'arisksec'Aryal</b> and I write blog about Application Security technique , Thinkpads, Linux/Unix and other stuff.</p>
-  <p>On this website I usually post guides, maybe it’ll turn into a lifestyle guru blog where I tell you all to clean your room, buckos.</p>
 
-  <h2 id="Articles">Articles</h2>
-  <li>
-    <a href="https://blog.aryanaryal.com.np/617373657473/41727469636c6573/54797065736f666970.html">Types of IP addresses: All you need to know</a>
-    <p class="date">2023-12-29</p>
-  </li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="https://aryanaryal.com.np/" class="logo-container">
+                <img class="logo" src="https://cdn.aryanaryal.com.np/626c6f672d617279616e/70686f746f73/6c6f676f73/black-logo.png" alt="arisksec logo">
+                <span class="sitename">arisksec's blog</span>
+            </a>
+        </div>
+        <div class="nav-right">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="mailto:arisksec@outlook.com">Contact</a></li>
+                <li><a target="_blank" href="https://patreon.com/#">𝕏 (Twitter)</a></li>
+                <li><a target="_blank" href="https://github.com/arisksec">GitHub</a></li>
+                <li><a target="_blank" rel="me" href="https://infosec.exchange/@arisksec">Mastodon</a></li>
+            </ul>
+            <button id="toggle-nav" class="hamburger" aria-label="Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
 
-  <li>
-    <a href="https://blog.aryanaryal.com.np/617373657473/41727469636c6573/404.html">Cyberattacks: Types, methods, and prevention</a>
-    <p class="date">2024-01-01</p>
-  </li>
-
-</div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to arisksec's Blog</h1>
+            <p class="hero-subtitle">Exploring Application Security, Linux/Unix, Thinkpads, and more with a modern twist.</p>
+        </div>
     </section>
 
+    <!-- Main Content -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <!-- About Me content styled as a card, matching article-card -->
+            <div class="about-content">
+                <div class="about-inner">
+                    <p>My name is <b>Aryan 'arisksec' Aryal</b>, and I write about Application Security techniques, Thinkpads, Linux/Unix, and other tech topics.</p>
+                    <p>Explore my guides and insights below—maybe I'll even convince you to clean your room, bucko!</p>
+                </div>
+            </div>
 
+            <h2 class="section-title">Articles</h2>
+            <div class="articles-grid">
+                <div class="article-card">
+                    <a href="https://blog.aryanaryal.com.np/617373657473/41727469636c6573/54797065736f666970.html">
+                        <h3>Types of IP Addresses: All You Need to Know</h3>
+                        <p class="article-date">2023-12-29</p>
+                    </a>
+                </div>
+                <div class="article-card">
+                    <a href="https://blog.aryanaryal.com.np/617373657473/41727469636c6573/404.html">
+                        <h3>Cyberattacks: Types, Methods, and Prevention</h3>
+                        <p class="article-date">2024-01-01</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-	<p>Powered by <a target="_blank" href="https://www.getzola.org/">Zola</a></p>
-  <p> <a href="https://blog.aryanaryal.com.np/496d7072696e7420b72050726976616379/696d7072657373756d.html">Imprint</a> 
-      · <a href="https://blog.aryanaryal.com.np/496d7072696e7420b72050726976616379/70726976616379.html">Privacy</a>
-  </p>
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-rss-container">
+            <a href="https://cdn.aryanaryal.com.np/626c6f672d617279616e/66696c6573/646973706c6179/rss.xml" class="footer-rss" title="RSS feed">
+                <i class="fas fa-rss"></i>
+            </a>
+        </div>
+        <div class="footer-links">
+            <p>
+                <a href="https://blog.aryanaryal.com.np/496d7072696e7420b72050726976616379/696d7072657373756d.html">Imprint</a> 
+                · <a href="https://blog.aryanaryal.com.np/496d7072696e7420b72050726976616379/70726976616379.html">Privacy</a>
+            </p>
+            <p>ARISKSEC © <span id="copyright-year"></span></p>
+        </div>
+    </div>
 </footer>
-<script data-cfasync="false" src="https://cdn.aryanaryal.com.np/626c6f672d617279616e/66696c6573/646973706c6179/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="https://cdn.aryanaryal.com.np/626c6f672d617279616e/66696c6573/646973706c6179/6461726b7468656d65.js?h=4694dd1e43b553665547" crossorigin="anonymous"></script>
-<script src="https://cdn.aryanaryal.com.np/626c6f672d617279616e/66696c6573/646973706c6179/6e61762d746f67676c65.js?h=b13a4960104d7cfec234" crossorigin="anonymous"></script>
-<script src="https://cdn.aryanaryal.com.np/626c6f672d617279616e/6d61696e/6a73/16234.js"></script>
-  </body>
 
+   <script>
+    // Update copyright year automatically
+    const copyrightYear = document.getElementById('copyright-year');
+    const currentYear = new Date().getFullYear();
+    copyrightYear.textContent = `${currentYear}`;
 
+    // Toggle mobile navigation
+    const toggleNav = document.getElementById('toggle-nav');
+    const navLinks = document.getElementById('navLinks');
+    
+    toggleNav.addEventListener('click', () => {
+        toggleNav.classList.toggle('active');
+        navLinks.classList.toggle('active');
+        
+        // Toggle body overflow when menu is open
+        if (navLinks.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    });
+    
+    // Close menu when clicking on a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                toggleNav.classList.remove('active');
+                navLinks.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+    });
+</script>
+</body>
 </html>
